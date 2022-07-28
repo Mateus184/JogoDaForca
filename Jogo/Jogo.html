@@ -8,6 +8,34 @@
     <title>Jogo da Forca</title>
 </head>
 <body>
+
+    <header>
+        <div class="cabeçalho-container1">
+            <h1>
+                <img src="./Imagem/Logo.png" alt="">
+            </h1>              
+             <form action="" class="pesquisa">
+                <input type="search" value="    ¿Que buscas?" class="search">
+                <input type="submit" value=" Buscar🔎 " class="botão">
+             </form>
+            <nav>
+                <a href="">SUPORTE</a>
+                <a href="">QUIENES SOMOS</a>
+                <a href=""><img src="./Imagem/icon_pefil.jpg" alt="" class="icon_header"></a>
+                <a href=""><img src="./Imagem/icon_carrinho.png" alt="" class="icon_header" ></a>
+            </nav>
+
+        </div>
+        <div class="cabeçalho-container2">
+            <ul>
+                <li class="categorias"><a href="">TV/AUDIO</a></li>
+                <li class="categorias"><a href="">ELECTRODOMESTICOS</a></li>
+                <li class="categorias"><a href="">INFORMATICA</a></li>
+                <li class="categorias"><a href="">MAS VENDIDOS</a></li>
+            </ul>
+        </div>
+    </header>
+
     <div class = "container">
         
         <div id = "produto-sorteado">
@@ -54,17 +82,21 @@
                 <button id="tecla-X" onclick="verificarLetraEscolhida('X')">X</button>
                 <button id="tecla-Y" onclick="verificarLetraEscolhida('Y')">Y</button>
                 <button id="tecla-Z" onclick="verificarLetraEscolhida('Z')">Z</button>
-                <button id="btnReiniciar" onclick="btnReiniciar()">🔄</button>
                 
                 
+                
+            </div>
+            <div class ="teclas">
+                <button id="btnReiniciar" onclick="btnReiniciar()">REINICIAR 🔄</button>
+
             </div>
             
         </div>
 
         <div id = "dicas">
-            <button id = "DICA" onclick="dica1(),this.disabled=true">DICA 1</button>
-            <button id = "DICA"onclick="dica1(),this.disabled=true">DICA 2</button>
-            <button id = "DICA"onclick="dica1(),this.disabled=true">DICA 3</button>
+            <button id = "DICA" onclick="dica1(),this.disabled=true">PISTA 1</button>
+            <button id = "DICA"onclick="dica1(),this.disabled=true">PISTA 2</button>
+            <button id = "DICA"onclick="dica1(),this.disabled=true">PISTA 3</button>
 
         </div>
         

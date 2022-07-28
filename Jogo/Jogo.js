@@ -6,30 +6,30 @@ let letraserradas = []
 
 const produtos = [
     {
-        nome: "TELEVISAO"
+        nome: "TOSTADORA"
     },
     {
-        nome: "COMPUTADOR"
+        nome: "LICUADORA"
     },
     {
-        nome: "CELULAR"
+        nome: "MICROONDAS"
     },
     {
-        nome: "NOTBOOK"
+        nome: "LAVADORA"
     },
     {
-        nome: "TABLET"
+        nome: "CALEFACTOR"
     }
 ];
 
-            let desativa = document.querySelector("#DICA");
+           // let desativa = document.querySelector("#DICA");
         
-         //   function DesativaBotao() {
-         //       DICA.addEventListener("change", DesativaBotao);
-          //  if (document.querySelector("#DICA").value === "") {
-          //      button.disabled; 
-          //  }
-//}
+           // function DesativaBotao() {
+           //     DICA.addEventListener("change", DesativaBotao);
+           // if (document.querySelector("#DICA").value === "") {
+            //    button.disabled true; 
+           // }
+    //}
 
 criarProdutoSorteado();
 function criarProdutoSorteado() {

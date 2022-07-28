@@ -2,18 +2,19 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial;
+   
 }
 
 body{
-    width: 100vw;
-    height: 90vh;
-    margin-top: 10px;
-    background-color:darkgrey;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-family: Arial;
+   
 
 }
 
 .container{
+    background-color: rgb(202, 202, 202);
+    height: 700PX;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,11 +45,15 @@ body{
 }
 
 #teclado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-top: 30px;
  
 }
 
 .teclas button{
+    
     width: 24px;
     height: 24px;
     margin: 2px;
@@ -61,6 +66,17 @@ body{
     font-weight: 700;
     
 }
+.teclas {
+    display: flex;
+    justify-content: center;
+    width: 410px;
+    height: 40px;
+}
+#btnReiniciar{
+    width: 400px;
+}
+
+
 
 #dicas button{
     width: 70px;
@@ -115,4 +131,83 @@ body{
         width: 20px;
     }
 }   
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+.cabeçalho-container1 {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: center;
+    width: 450px;
+}
+.icon_header {
+    height: 20px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 300px;
+}
+
+
+.botão {
+    border-radius: 0px 10px 10px 0px;
+}
+.search{
+    display: flex;
+    width: 300px;
+  
+    border-radius: 10px 0px 0px 10px;
+
+}
+ul {
+    display: flex;
+    justify-content: center;
+
+}
+li {
+    display: flex;
+    justify-content:center ;
+    list-style: none;
+    width: 220px;
+}
+a {
+    text-decoration: none;
+
+}
+
+section {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    
+}
+.jogo {
+    width: 420px ;
+    display: flex;
+    justify-content: space-between;
+}
+.appliances {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    background-image:url(./Imagem/banner.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon_controle:hover {
+    opacity: 0.8;
+
 }

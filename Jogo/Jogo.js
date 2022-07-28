@@ -22,6 +22,15 @@ const produtos = [
     }
 ];
 
+            let desativa = document.querySelector("#DICA");
+        
+         //   function DesativaBotao() {
+         //       DICA.addEventListener("change", DesativaBotao);
+          //  if (document.querySelector("#DICA").value === "") {
+          //      button.disabled; 
+          //  }
+//}
+
 criarProdutoSorteado();
 function criarProdutoSorteado() {
     const codigoProduto = parseInt(Math.random() * produtos.length) // sorteia o código do produto e armazena na variavel codigoProduto
@@ -123,7 +132,7 @@ function dica1() {
         posicao_b = listaDinamica.indexOf(letraDaDica); // saber se a letraDica já foi usada
         if(posicao_a >= 0 && posicao_b < 0) // se a posição_a for maior ou igual a zero significa que ele encontrou no produtoSorteado; se a posição_b for menor que zero significa que ele não encontrou a letra nas letras usadas, então a dica esta ok
             {break};//quando achar uma letra que contenha na palavra e nao nas usadas, pega e sai do loop
-
+        
      };
      verificarLetraEscolhida(letraDaDica);
     };

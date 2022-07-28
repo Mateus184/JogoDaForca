@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    height: 40px;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+
+
+}
+.coluna_esquerda {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 1px;
+    width: 900px;
+    height: 550px;
+}
+.coluna_direita {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 1px;
+    width: 300px;
+    height: 550px;
+}
+.palavra {
+    display: flex;
+    justify-content: center;
+    border:solid 2px;
+    width: 500px;
+}
+
+.menu, .dicas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 220px;
+}
+button {
+    height:40px ;
+    width: 150px;
+}
+

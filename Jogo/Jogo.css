@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 90vh;
+    margin-top: 10px;
+    background-color:darkgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+#produto-sorteado{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.letras{
+    width: 16px;
+    text-align: center;
+    border-bottom: 2px solid red; 
+    color: white;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+
+
+}
+
+#teclado{
+    margin-top: 30px;
+ 
+}
+
+.teclas button{
+    width: 24px;
+    height: 24px;
+    margin: 2px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 8px dimgray;
+    border-radius: 5px;
+    border: 1px solid dimgray;
+    color: red;
+    font-weight: 700;
+    
+}
+
+#dicas button{
+    width: 70px;
+    height: 40px;
+    margin: 40px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 8px dimgray;
+    border-radius: 5px;
+    border: 1px solid dimgray;
+    color: red;
+    font-weight: 700;
+    
+}
+
+.teclas button:hover{
+    transform: scale(1.3);
+
+}
+
+@media (min-width: 321px){
+    .teclas button{
+    width: 25px;
+    height: 25px;
+
+}
+
+@media (min-width: 376px){
+    .teclas button{
+    width: 30px;
+    height: 30px;
+}
+    .produto-sorteado{
+        font-size: 1.3em;
+    }
+
+    .letras{
+        width: 18px;
+    }
+}   
+
+@media (min-width: 426px){
+    .teclas button{
+    width: 36px;
+    height: 36px;
+}
+    .produto-sorteado{
+        font-size: 1.5em;
+    }
+
+    .letras{
+        width: 20px;
+    }
+}   
+}
